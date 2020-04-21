@@ -1,7 +1,16 @@
 <template>
   <div id="app">
+    <p>
+      <router-link to="/unita">Go to A</router-link>
+    </p>
+    <p>
+      <router-link to="/unitb">Go to B</router-link>
+    </p>
+    <router-view></router-view>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    
   </div>
 </template>
 
