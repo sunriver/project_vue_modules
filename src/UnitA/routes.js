@@ -10,7 +10,7 @@ const routes = [
         path: "/unita/subview",
         name: "unita_subview",
         component: () => 
-            import(/* webpackChunkName: "unita" */ "./views/ViewAJSX")
+            import(/* webpackChunkName: "unita" */ "./views/ViewCreateElement")
 
     }
 ];
