@@ -5,14 +5,20 @@
 </template>
 
 <script>
+import {ItemVo} from "../models/ItemData";
 export default {
-  props: {
-    data: {
-      name: undefined,
-      type: undefined
-    }
-  }
-};
+    props : {
+        data : {
+            type: ItemVo,
+            default: null,
+        }
+    },
+    data() {
+        return {
+
+        }
+    }  
+}
 </script>
 
 <style scoped>

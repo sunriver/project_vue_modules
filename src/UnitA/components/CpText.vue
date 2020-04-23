@@ -7,11 +7,17 @@
 </template>
 
 <script>
+import {ItemVo} from "../models/ItemData";
 export default {
-    props: {
+    props : {
         data : {
-            name : undefined,
-            type : undefined
+            type: ItemVo,
+            default: null,
+        }
+    },
+    data() {
+        return {
+
         }
     }  
 }
