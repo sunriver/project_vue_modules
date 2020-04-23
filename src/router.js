@@ -9,8 +9,8 @@ const vueRouter = new VueRouter({
     mode : "history",
     base : process.env.BASE_URL,
     routes : [
-        routesUnitA, 
-        routesUnitB
+        ...routesUnitA, 
+        ...routesUnitB
     ]
 });
 

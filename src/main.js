@@ -3,6 +3,11 @@ import App from './App.vue'
 import vueRouter from "./router";
 import vuexStore from "./vuexstore";
 
+import {Input, Button} from "ant-design-vue";
+
+Vue.use(Input);
+Vue.use(Button);
+
 Vue.config.productionTip = false
 
 // console.log(vueRouter);
