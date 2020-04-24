@@ -7,11 +7,12 @@
 </template>
 
 <script>
+// eslint-disable-next-line no-unused-vars
 import {ItemVo} from "../models/ItemData";
 export default {
     props : {
         data : {
-            type: ItemVo,
+            type: Object,
             default: null,
         }
     },

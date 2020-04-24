@@ -9,11 +9,11 @@ class ItemVo  {
     }
 }
 
-class ViewItemType {
-    TYPE_BUTTON = 1;
-    TYPE_TEXT = 2;
-    TYPE_IMAGE = 3
-  }
+const ViewItemType = {
+    TYPE_BUTTON : 1,
+    TYPE_TEXT : 2,
+    TYPE_IMAGE : 3
+}
 
  
 module.exports = {

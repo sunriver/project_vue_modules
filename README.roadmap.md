@@ -16,7 +16,7 @@
 ```
 
 ```
-> divid a page into block vue by type using jsx
+> divid a page view into block  by type using createElement
 ```
 ```
 > implement register/login 
