@@ -12,7 +12,7 @@
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-preset-jsx": "^1.1.2",
     "ant-design-vue": "^1.5.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "cross-env": "^7.0.2",
     "umi-mock-middleware": "^1.0.0",
